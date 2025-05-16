@@ -1,0 +1,12 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A simple blog for a clinician learning to code",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
