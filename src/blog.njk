@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Blog - Clinician's Coding Journey
+---
+
+<h1>My Blog Posts</h1>
+
+{% for post in collections.post | reverse %}
+<article class="blog-post">
+    <h2>{{ post.data.title }}</h2>
+    <div class="date">{{ post.data.date }}</div>
+    <div class="content">
+        {{ post.templateContent | safe }}
+    </div>
+    <a href="{{ post.url }}" class="read-more">Read more →</a>
+</article>
+{% endfor %} 

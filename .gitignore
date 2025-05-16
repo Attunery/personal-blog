@@ -30,4 +30,5 @@ logs
 
 # Build output
 dist/
-build/ 
+build/
+_site/ 

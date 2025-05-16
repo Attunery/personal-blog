@@ -4,9 +4,10 @@
   "description": "A simple blog for a clinician learning to code",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "@11ty/eleventy": "^2.0.1"
   }
 } 
